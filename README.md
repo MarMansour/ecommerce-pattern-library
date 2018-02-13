@@ -11,12 +11,12 @@ fonts:
 
     Merriweather is to only be used on headers.
   colors:
-  primary: |
-    Ruby Red is the primary colour inspired by the Ruby Red Apple, our flagship product. It offers an inviting tone, creating a pleasing experience for the user as they browse the website. To be used on nav elements, headers (h1), buttons, and highlighting features.
-  secondary: |
-    Delicious Red offers a rich and classic look to emphasize the quality that Pomme has to offer. The secondary colour is to be used for headers (h2 and smaller), links, button hover states and status states.
-  accent: |
-    Rose Pink is to be used for subtle aspects of the website such as, underlines, tables, buttons on cards.
+    primary: |
+      Ruby Red is the primary colour inspired by the Ruby Red Apple, our flagship product. It offers an inviting tone, creating a pleasing experience for the user as they browse the website. To be used on nav elements, headers (h1), buttons, and highlighting features.
+    secondary: |
+      Delicious Red offers a rich and classic look to emphasize the quality that Pomme has to offer. The secondary colour is to be used for headers (h2 and smaller), links, button hover states and status states.
+    accent: |
+      Rose Pink is to be used for subtle aspects of the website such as, underlines, tables, buttons on cards.
 ---
 
 Pomme is the apple store of the future. Offering many generations of apples, now available in Ruby Rose, and Emerald Green.
