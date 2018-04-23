@@ -11,3 +11,12 @@ html {
   h1: var(--font-secondary);
   h2: var(--font-primary);
 }
+
+a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary);
+}
