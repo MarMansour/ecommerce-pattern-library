@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library
- * @version d7c3c59565707c36d2cd174f1b7a9e62a290eca8
+ * @version 685750e1afd50111f055daf14e5e753ed1da0891
  */
-const patternManifest_d7c3c59565707c36d2cd174f1b7a9e62a290eca8 = {
+const patternManifest_685750e1afd50111f055daf14e5e753ed1da0891 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -651,9 +651,32 @@ const patternManifest_d7c3c59565707c36d2cd174f1b7a9e62a290eca8 = {
       "name": "banners",
       "namePretty": "Banners",
       "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/banners",
-      "html": [],
+      "html": [
+        {
+          "name": "banner-image",
+          "namePretty": "Banner image",
+          "filename": "banner-image",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/banners/banner-image.html",
+          "localPath": "patterns/banners/banner-image.html"
+        },
+        {
+          "name": "carousel",
+          "namePretty": "Carousel",
+          "filename": "carousel",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/banners/carousel.html",
+          "localPath": "patterns/banners/carousel.html"
+        }
+      ],
       "md": [],
-      "css": [],
+      "css": [
+        {
+          "name": "banners",
+          "namePretty": "Banners",
+          "filename": "banners",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/banners/banners.css",
+          "localPath": "patterns/banners/banners.css"
+        }
+      ],
       "js": []
     },
     {
@@ -695,13 +718,6 @@ const patternManifest_d7c3c59565707c36d2cd174f1b7a9e62a290eca8 = {
       "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
-          "name": "cards",
-          "namePretty": "Cards",
-          "filename": "cards",
-          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/cards/cards.html",
-          "localPath": "patterns/cards/cards.html"
-        },
-        {
           "name": "link-cards",
           "namePretty": "Link cards",
           "filename": "link-cards",
@@ -724,13 +740,6 @@ const patternManifest_d7c3c59565707c36d2cd174f1b7a9e62a290eca8 = {
           "filename": "cards",
           "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
-        },
-        {
-          "name": "product-cards",
-          "namePretty": "Product cards",
-          "filename": "product-cards",
-          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/cards/product-cards.css",
-          "localPath": "patterns/cards/product-cards.css"
         }
       ],
       "js": []
@@ -739,16 +748,40 @@ const patternManifest_d7c3c59565707c36d2cd174f1b7a9e62a290eca8 = {
       "name": "footer",
       "namePretty": "Footer",
       "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/footer",
-      "html": [],
+      "html": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "filename": "footer",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/footer/footer.html",
+          "localPath": "patterns/footer/footer.html"
+        }
+      ],
       "md": [],
-      "css": [],
+      "css": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "filename": "footer",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/footer/footer.css",
+          "localPath": "patterns/footer/footer.css"
+        }
+      ],
       "js": []
     },
     {
       "name": "header",
       "namePretty": "Header",
       "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/header",
-      "html": [],
+      "html": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "filename": "header",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/header/header.html",
+          "localPath": "patterns/header/header.html"
+        }
+      ],
       "md": [],
       "css": [],
       "js": []
@@ -783,5 +816,5 @@ const patternManifest_d7c3c59565707c36d2cd174f1b7a9e62a290eca8 = {
   }
 };
 
-patternBotIncludes(patternManifest_d7c3c59565707c36d2cd174f1b7a9e62a290eca8);
+patternBotIncludes(patternManifest_685750e1afd50111f055daf14e5e753ed1da0891);
 }());

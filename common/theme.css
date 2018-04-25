@@ -20,3 +20,31 @@ a {
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-primary);
 }
+
+ul>li {
+  text-decoration: none;
+}
+
+blockquote {
+  font-weight: 300;
+}
+
+cite {
+  color: var(--color-accent);
+}
+
+q {
+  color: var(--color-secondary);
+}
+
+strong {
+  color: var(--color-secondary);
+}
+
+del {
+  color: var(--color-accent);
+}
+
+mark {
+  background-color: var(--color-accent);
+}
