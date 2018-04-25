@@ -1,7 +1,10 @@
-.link-card {
+.product-card, .icon-card {
   border: 5px solid var(--color-primary);
   radius: 1px;
-  max-width: 400px;
-  height: 100%;
+  max-width: 100%;
   margin: 0 auto;
+}
+
+.product-image {
+  max-height: 50%;
 }
