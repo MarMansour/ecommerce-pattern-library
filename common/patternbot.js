@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library
- * @version 685750e1afd50111f055daf14e5e753ed1da0891
+ * @version 26dd7abf0952e0696fbb39c9c5bb117d4f410198
  */
-const patternManifest_685750e1afd50111f055daf14e5e753ed1da0891 = {
+const patternManifest_26dd7abf0952e0696fbb39c9c5bb117d4f410198 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -641,6 +641,7 @@ const patternManifest_685750e1afd50111f055daf14e5e753ed1da0891 = {
       "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/cards",
       "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/footer",
       "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/header",
+      "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/navigation",
       "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/sections"
     ],
     "pages": [],
@@ -653,21 +654,29 @@ const patternManifest_685750e1afd50111f055daf14e5e753ed1da0891 = {
       "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/banners",
       "html": [
         {
-          "name": "banner-image",
-          "namePretty": "Banner image",
-          "filename": "banner-image",
-          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/banners/banner-image.html",
-          "localPath": "patterns/banners/banner-image.html"
-        },
-        {
           "name": "carousel",
           "namePretty": "Carousel",
           "filename": "carousel",
           "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/banners/carousel.html",
           "localPath": "patterns/banners/carousel.html"
+        },
+        {
+          "name": "image-banner",
+          "namePretty": "Image banner",
+          "filename": "image-banner",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/banners/image-banner.html",
+          "localPath": "patterns/banners/image-banner.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/banners/README.md",
+          "localPath": "patterns/banners/README.md"
+        }
+      ],
       "css": [
         {
           "name": "banners",
@@ -718,11 +727,11 @@ const patternManifest_685750e1afd50111f055daf14e5e753ed1da0891 = {
       "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
-          "name": "link-cards",
-          "namePretty": "Link cards",
-          "filename": "link-cards",
-          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/cards/link-cards.html",
-          "localPath": "patterns/cards/link-cards.html"
+          "name": "icon-cards",
+          "namePretty": "Icon cards",
+          "filename": "icon-cards",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/cards/icon-cards.html",
+          "localPath": "patterns/cards/icon-cards.html"
         },
         {
           "name": "product-cards",
@@ -732,7 +741,15 @@ const patternManifest_685750e1afd50111f055daf14e5e753ed1da0891 = {
           "localPath": "patterns/cards/product-cards.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/cards/README.md",
+          "localPath": "patterns/cards/README.md"
+        }
+      ],
       "css": [
         {
           "name": "cards",
@@ -757,7 +774,15 @@ const patternManifest_685750e1afd50111f055daf14e5e753ed1da0891 = {
           "localPath": "patterns/footer/footer.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/footer/README.md",
+          "localPath": "patterns/footer/README.md"
+        }
+      ],
       "css": [
         {
           "name": "footer",
@@ -782,16 +807,88 @@ const patternManifest_685750e1afd50111f055daf14e5e753ed1da0891 = {
           "localPath": "patterns/header/header.html"
         }
       ],
-      "md": [],
-      "css": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/header/README.md",
+          "localPath": "patterns/header/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "filename": "header",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/header/header.css",
+          "localPath": "patterns/header/header.css"
+        }
+      ],
+      "js": []
+    },
+    {
+      "name": "navigation",
+      "namePretty": "Navigation",
+      "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/navigation",
+      "html": [
+        {
+          "name": "nav",
+          "namePretty": "Nav",
+          "filename": "nav",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/navigation/nav.html",
+          "localPath": "patterns/navigation/nav.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/navigation/README.md",
+          "localPath": "patterns/navigation/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "nav",
+          "namePretty": "Nav",
+          "filename": "nav",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/navigation/nav.css",
+          "localPath": "patterns/navigation/nav.css"
+        }
+      ],
       "js": []
     },
     {
       "name": "sections",
       "namePretty": "Sections",
       "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/sections",
-      "html": [],
-      "md": [],
+      "html": [
+        {
+          "name": "text-image-section",
+          "namePretty": "Text image section",
+          "filename": "text-image-section",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/sections/text-image-section.html",
+          "localPath": "patterns/sections/text-image-section.html"
+        },
+        {
+          "name": "text-section",
+          "namePretty": "Text section",
+          "filename": "text-section",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/sections/text-section.html",
+          "localPath": "patterns/sections/text-section.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Marwan/Desktop/School/Algonquin College/Semester 6/Web Dev 4/ecommerce-pattern-library/patterns/sections/README.md",
+          "localPath": "patterns/sections/README.md"
+        }
+      ],
       "css": [],
       "js": []
     }
@@ -816,5 +913,5 @@ const patternManifest_685750e1afd50111f055daf14e5e753ed1da0891 = {
   }
 };
 
-patternBotIncludes(patternManifest_685750e1afd50111f055daf14e5e753ed1da0891);
+patternBotIncludes(patternManifest_26dd7abf0952e0696fbb39c9c5bb117d4f410198);
 }());
